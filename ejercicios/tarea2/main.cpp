@@ -24,6 +24,15 @@ int main(){
             printf("Ingrese el primer numero: ");
             int numero1;scanf("%d", &numero1);
             printf("\nIngrese el segundo numero: ");
+            int numero2;scanf("%d", &numero2);
+            //mayor de 2 numeros
+            if(numero1 < numero2){
+                printf("Numero 2 es mayor.");
+            }else if(numero2 < numero1){
+                printf("Numero 1 es mayor.");
+            }else{
+                printf("Los numeros son iguales.");
+            }
 
 
         }case 2:{
