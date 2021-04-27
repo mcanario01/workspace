@@ -1,0 +1,19 @@
+2 -> Par - Primo.
+1 -> Impar - Primo.
+5 -> Impar - Primo.
+7 -> Impar - Primo.
+23 -> Impar - Primo.
+865 -> Impar - No primo.
+21 -> Impar - No primo.
+675 -> Impar - No primo.
+6 -> Par - No primo.
+3 -> Impar - Primo.
+1 -> Impar - Primo.
+23 -> Impar - Primo.
+76 -> Par - No primo.
+98 -> Par - No primo.
+45 -> Impar - No primo.
+23 -> Impar - Primo.
+7 -> Impar - Primo.
+11 -> Impar - Primo.
+13 -> Impar - Primo.

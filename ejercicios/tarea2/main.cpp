@@ -13,7 +13,7 @@ int main(){
     printf("5) Divisores de x.\n");
     printf("6) Test de numero primo.\n");
     printf("7) Texto a mayus.\n\n");
-    printf("Qué opción desea elegir?:");
+    printf("Qué opción desea elegir? ([ctrl + c] para salir):");
     scanf("%d", &opcion);
     printf("%d", opcion);
     }while((opcion < 1)||(opcion > 7));
@@ -39,7 +39,7 @@ int main(){
 
         }case 2:{
 
-            printf("DETECTOR DE PRIMOS.\n\n");
+            printf("DETECTOR DE PARIDAD.\n\n");
             printf("Ingrese un numero entero: ");
             int numero;scanf("%d", &numero);
             int resto = numero % 2;
