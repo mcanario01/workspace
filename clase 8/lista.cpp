@@ -44,11 +44,11 @@ int inserta(tipoDato x, int p, Lista &lista){
         return;
     }
 
+    //cuadrado verde
+    nodo* n = new nodo;
     //lista = 15
     Lista aux = lista;
 
-    //cuadrado verde
-    nodo* n = new nodo;
     n->dato = x;
 
     if(p == primero(lista)){
