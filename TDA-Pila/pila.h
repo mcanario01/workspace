@@ -8,3 +8,5 @@ void pop(Pila &pila);
 tipoDato top(Pila pila);
 void anula(Pila &pila);
 void imprimePila(Pila pila);
+
+int localiza(Pila &pila, tipoDato x);
