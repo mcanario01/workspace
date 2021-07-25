@@ -41,3 +41,32 @@ void imprimePila(Pila pila){
         pop(aux);
     }
 }
+
+int localiza(Pila &pila, tipoDato x){
+    int posicion;
+    Pila aux;
+    push(top(pila), aux);
+    
+    return 0;
+}
+
+void elimina(int p, Pila &pila){
+    if(vacia(pila)){
+        printf("Pila está vacía.\n");
+        return;
+    }
+    Pila aux;
+    printf("Pila:\n");
+    while(!vacia(pila)){
+        tipoDato x = top(pila);
+        if(p == x){
+            pop(Pila &pila);
+        }
+        push(x, aux);
+        pop(pila);
+    }
+    while(!vacia(aux)){
+        push(top(aux), pila);
+        pop(aux);
+    }    
+}
