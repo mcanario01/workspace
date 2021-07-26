@@ -3,7 +3,7 @@
 
 struct nodoarbol{
 	datoArbol dato;
-	Arbol hijos;
+	Arbol hijos};
 }
 
 #define tipoDato nodoArbol
