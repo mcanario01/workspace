@@ -133,3 +133,11 @@ Arbol podarHermanoDer(Arbol n){
 	inserta(datoHermano,primero(r),r);
 	return r;	
 }
+
+void imprimirHojas(Arbol n){
+	for(Arbol c=hijoMasIzq(n); !esNulo(n); c=hermanoDer(n)){
+		if(esHoja(n)==1){
+			printf(n);
+		}
+	}
+}
